@@ -394,7 +394,7 @@ highlight! link TSKeywordFunction Red
 highlight! link TSKeywordOperator Orange
 highlight! link TSLabel Orange
 highlight! link TSMethod Green
-highlight! link TSNamespace YellowItalic
+highlight! link TSNamespace Blue
 highlight! link TSNone Fg
 highlight! link TSNumber Purple
 highlight! link TSOperator Orange
