@@ -215,9 +215,9 @@ call everforest#highlight('Operator', s:palette.orange, s:palette.none)
 call everforest#highlight('Title', s:palette.orange, s:palette.none, 'bold')
 call everforest#highlight('Special', s:palette.yellow, s:palette.none)
 call everforest#highlight('SpecialChar', s:palette.yellow, s:palette.none)
-call everforest#highlight('Type', s:palette.yellow, s:palette.none)
+call everforest#highlight('Type', s:palette.blue, s:palette.none)
 call everforest#highlight('Function', s:palette.green, s:palette.none)
-call everforest#highlight('String', s:palette.green, s:palette.none)
+call everforest#highlight('String', s:palette.yellow, s:palette.none)
 call everforest#highlight('Character', s:palette.green, s:palette.none)
 call everforest#highlight('Constant', s:palette.aqua, s:palette.none)
 call everforest#highlight('Macro', s:palette.aqua, s:palette.none)
@@ -383,7 +383,7 @@ highlight! link TSConstMacro BlueItalic
 highlight! link TSConstant Fg
 highlight! link TSConstructor Green
 highlight! link TSException Red
-highlight! link TSField Green
+highlight! link TSField Yellow
 highlight! link TSFloat Purple
 highlight! link TSFuncBuiltin Green
 highlight! link TSFuncMacro Green
@@ -415,7 +415,7 @@ highlight! link TSTagDelimiter Green
 highlight! link TSText Green
 highlight! link TSStrike Grey
 highlight! link TSMath Blue
-highlight! link TSType Yellow
+highlight! link TSType Blue
 highlight! link TSTypeBuiltin YellowItalic
 highlight! link TSURI markdownUrl
 highlight! link TSVariable Fg
@@ -1658,7 +1658,7 @@ highlight! link LspCxxHlSkippedRegion Grey
 highlight! link LspCxxHlSkippedRegionBeginEnd TSKeyword
 highlight! link LspCxxHlGroupEnumConstant TSStructure
 highlight! link LspCxxHlGroupNamespace TSNamespace
-highlight! link LspCxxHlGroupMemberVariable TSVariable
+highlight! link LspCxxHlGroupMemberVariable TSField
 " }}}
 " ft_end }}}
 " ft_begin: objc {{{
