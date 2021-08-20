@@ -36,7 +36,7 @@ function! everforest#get_palette(background) "{{{
     if &background ==# 'dark'
       let palette1 = {
             \ 'bg0':        ['#262e34',   '235'],
-            \ 'bg1':        ['#323c41',   '236'],
+            \ 'bg1':        ['#2d363c',   '236'],
             \ 'bg2':        ['#3a454a',   '237'],
             \ 'bg3':        ['#445055',   '238'],
             \ 'bg4':        ['#4c555b',   '239'],
