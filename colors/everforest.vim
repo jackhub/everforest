@@ -379,14 +379,14 @@ highlight! link TSCharacter Aqua
 highlight! link TSComment Comment
 highlight! link TSConditional Red
 highlight! link TSConstBuiltin BlueItalic
-highlight! link TSConstMacro BlueItalic
+highlight! link TSConstMacro Aqua
 highlight! link TSConstant Fg
 highlight! link TSConstructor Green
 highlight! link TSException Red
 highlight! link TSField Yellow
 highlight! link TSFloat Purple
 highlight! link TSFuncBuiltin Green
-highlight! link TSFuncMacro Green
+highlight! link TSFuncMacro Aqua
 highlight! link TSFunction Green
 highlight! link TSInclude Red
 highlight! link TSKeyword Red
@@ -442,7 +442,7 @@ highlight! link CocSem_constParameter TSParameter
 highlight! link CocSem_dependent TSInclude
 highlight! link CocSem_dot TSOperator
 highlight! link CocSem_enum TSStructure
-highlight! link CocSem_enumMember TSVariable
+highlight! link CocSem_enumMember TSStructure
 highlight! link CocSem_escapeSequence TSStringEscape
 highlight! link CocSem_event TSType
 highlight! link CocSem_formatSpecifier TSStringEscape
